@@ -25,22 +25,22 @@
         }
     },
     "require": {
-        "php": "~8.1.0 || ~8.2.0",
-        "laminas/laminas-http": "^2.18",
-        "laminas/laminas-mvc": "^3.6.1",
-        "laminas/laminas-router": "^3.11.1",
-        "laminas/laminas-servicemanager": "^3.21",
-        "laminas/laminas-stdlib": "^3.17",
-        "laminas/laminas-view": "^2.28",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+        "laminas/laminas-http": "^2.20",
+        "laminas/laminas-mvc": "^3.8.0",
+        "laminas/laminas-router": "^3.14.0",
+        "laminas/laminas-servicemanager": "^3.23",
+        "laminas/laminas-stdlib": "^3.20",
+        "laminas/laminas-view": "^2.36",
         "psr/container": "^1.1.2 || ^2",
         "webmozart/assert": "^1.11.0"
     },
     "require-dev": {
-        "laminas/laminas-coding-standard": "~2.5.0",
-        "maglnet/composer-require-checker": "^4.6",
-        "phpunit/phpunit": "^10.2.6",
-        "psalm/plugin-phpunit": "^0.18.4",
-        "vimeo/psalm": "^5.13.1"
+        "laminas/laminas-coding-standard": "~3.0.1",
+        "maglnet/composer-require-checker": "^4.7.1",
+        "phpunit/phpunit": "^10.5.38",
+        "psalm/plugin-phpunit": "^0.19.0",
+        "vimeo/psalm": "^5.26.1"
     },
     "autoload": {
         "psr-4": {

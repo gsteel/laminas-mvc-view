@@ -57,7 +57,7 @@ final class ServerUrlFactory
         $uri->setPath(null);
         $uri->setQuery(null);
 
-        if (! $uri->getHost() || ! $uri->getScheme()) {
+        if ((string) $uri->getHost() === '' || (string) $uri->getScheme() === '') {
             throw HostNameDetectionException::withMissingHostOrScheme();
         }
 

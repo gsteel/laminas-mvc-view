@@ -9,9 +9,11 @@
     displayDetailsOnTestsThatTriggerErrors="true"
     displayDetailsOnTestsThatTriggerNotices="true"
     displayDetailsOnTestsThatTriggerWarnings="true"
+    displayDetailsOnPhpunitDeprecations="true"
     failOnDeprecation="true"
     failOnNotice="true"
     failOnWarning="true"
+    failOnPhpunitDeprecation="true"
 >
     <testsuites>
         <testsuite name="laminas-mvc-view Test Suite">
